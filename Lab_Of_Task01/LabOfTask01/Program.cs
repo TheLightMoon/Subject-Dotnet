@@ -80,7 +80,7 @@ namespace Lapoftask01
                     Console.WriteLine("Sorry it's not number !\n");
                 }
 
-            //Enter the email
+            //Enter the email.
             Console.Write("write your Email: ");
             student.YourEmail = Console.ReadLine();
             Console.Write("That your email? " + "===> ");
