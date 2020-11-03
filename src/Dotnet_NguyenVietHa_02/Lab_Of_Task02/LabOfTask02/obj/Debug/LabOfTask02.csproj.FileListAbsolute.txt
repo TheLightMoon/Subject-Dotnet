@@ -1,0 +1,11 @@
+C:\Users\nguye\source\repos\Lab_Of_Task02\LabOfTask02\bin\Debug\LabOfTask02.exe.config
+C:\Users\nguye\source\repos\Lab_Of_Task02\LabOfTask02\bin\Debug\LabOfTask02.exe
+C:\Users\nguye\source\repos\Lab_Of_Task02\LabOfTask02\bin\Debug\LabOfTask02.pdb
+C:\Users\nguye\source\repos\Lab_Of_Task02\LabOfTask02\bin\Debug\LabOfTask01.exe
+C:\Users\nguye\source\repos\Lab_Of_Task02\LabOfTask02\bin\Debug\LabOfTask01.pdb
+C:\Users\nguye\source\repos\Lab_Of_Task02\LabOfTask02\bin\Debug\LabOfTask01.exe.config
+C:\Users\nguye\source\repos\Lab_Of_Task02\LabOfTask02\obj\Debug\LabOfTask02.csprojAssemblyReference.cache
+C:\Users\nguye\source\repos\Lab_Of_Task02\LabOfTask02\obj\Debug\LabOfTask02.csproj.CoreCompileInputs.cache
+C:\Users\nguye\source\repos\Lab_Of_Task02\LabOfTask02\obj\Debug\LabOfTask02.csproj.CopyComplete
+C:\Users\nguye\source\repos\Lab_Of_Task02\LabOfTask02\obj\Debug\LabOfTask02.exe
+C:\Users\nguye\source\repos\Lab_Of_Task02\LabOfTask02\obj\Debug\LabOfTask02.pdb
