@@ -11,3 +11,12 @@ C:\Users\nguye\source\Repos\Lab_Of_Task03\LabOfTask03\obj\Debug\LabOfTask03.exe
 C:\Users\nguye\source\Repos\Lab_Of_Task03\LabOfTask03\obj\Debug\LabOfTask03.pdb
 C:\Users\nguye\Documents\dotnet_nguyenvietha\src\Dotnet_NguyenVietHa_03\Lab_Of_Task03\LabOfTask03\obj\Debug\LabOfTask03.csprojAssemblyReference.cache
 C:\Users\nguye\Documents\dotnet_nguyenvietha\src\Dotnet_NguyenVietHa_03\Lab_Of_Task03\LabOfTask03\obj\Debug\LabOfTask03.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Lab_Of_Task03\LabOfTask03\bin\Debug\LabOfTask03.exe.config
+C:\Users\Administrator\source\repos\Lab_Of_Task03\LabOfTask03\bin\Debug\LabOfTask03.exe
+C:\Users\Administrator\source\repos\Lab_Of_Task03\LabOfTask03\bin\Debug\LabOfTask03.pdb
+C:\Users\Administrator\source\repos\Lab_Of_Task03\LabOfTask03\obj\Debug\LabOfTask03.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\Lab_Of_Task03\LabOfTask03\obj\Debug\LabOfTask03.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Lab_Of_Task03\LabOfTask03\obj\Debug\LabOfTask03.csproj.CopyComplete
+C:\Users\Administrator\source\repos\Lab_Of_Task03\LabOfTask03\obj\Debug\LabOfTask03.exe
+C:\Users\Administrator\source\repos\Lab_Of_Task03\LabOfTask03\obj\Debug\LabOfTask03.pdb
+C:\Users\Administrator\source\repos\Lab_Of_Task03\LabOfTask03\bin\Debug\LabOfTask01.dll

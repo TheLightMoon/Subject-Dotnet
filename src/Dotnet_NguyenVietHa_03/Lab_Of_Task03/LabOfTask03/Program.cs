@@ -1,4 +1,4 @@
-﻿using LabOfTask01;
+﻿using LapOfTask01;
 using System.Runtime.InteropServices.ComTypes;
 using System;
 using System.Collections.Generic;
@@ -13,28 +13,39 @@ namespace LabOfTask03
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello for input new students from Console input 1 or for get students from File input 2");
+            Console.WriteLine("Hello masster");
+            Console.WriteLine("Press 1: If you want create new list student");
+            Console.WriteLine("Press 2: If you want get list stident from File");
+            Console.Write("Your choose: ");
+            
             var students = new List<Student>();
             var command = Console.ReadLine();
-            if (command == "1")
 
+            Console.WriteLine("------------------------------");
+
+            if (command == "1")
             {
 
-                Console.WriteLine("Please enter number of student");
+                Console.Write("Enter number student creater: ");
                 var count = int.Parse(Console.ReadLine());
+                Console.WriteLine("++++++++++++++++++++++++++++++");
 
                 for (int i = 0; i < count; i++)
                 {
-                    Console.WriteLine("please enter student no {0}", i + 1);
+                    Console.WriteLine("Student no {0}", i + 1);
                     var student = new Student();
-                    Console.WriteLine("Name: ");
+                    Console.Write("Family Name: ");
                     student.FamilyName = Console.ReadLine();
-                    Console.WriteLine("LastName: ");
+                    Console.Write("Middle Name: ");
                     student.MiddleName = Console.ReadLine();
-                    Console.WriteLine("PhoneNumber: ");
-                    student.Name = int.Parse(Console.ReadLine());
-                    Console.WriteLine("Email: ");
+                    Console.Write("Your Name: ");
+                    student.Name = Console.ReadLine();
+                    Console.Write("PhoneNumber: ");
+                    student.PhoneNumber = int.Parse(Console.ReadLine());
+                    Console.Write("Email: ");
                     student.YourEmail = Console.ReadLine();
+
+                    Console.WriteLine("==============================");
 
                     students.Add(student);
                 }
@@ -46,35 +57,24 @@ namespace LabOfTask03
                 }
 
                 System.IO.File.WriteAllLines("student.txt", lines);
-
             }
 
             else if (command == "2")
             {
 
-                var input = System.IO.File.ReadAllLines("student.txt");
-                foreach (var inp in input)
+                var lines = System.IO.File.ReadAllLines(@"student.txt");
+                foreach (var line in lines)
                 {
-                    var st = new Student();
-                    var parts = inp.Split('\t');
-                    st.FamilyName = parts[0].Split(':')[1].Trim();
-                    st.MiddleName = parts[1].Split(':')[1].Trim();
-                    st.PhoneNumber = int.Parse(parts[2].Split(':')[1]);
-                    st.YourEmail = parts[3].Split(':')[1].Trim();
-                    students.Add(st);
+                    Console.WriteLine(line);
+                    Console.WriteLine("------------------------------");
                 }
-
             }
-
-
-            // for all
+            // 
             foreach (var student in students)
             {
                 Console.WriteLine(student);
             }
-
             Console.ReadKey();
-
         }
     }
 }
