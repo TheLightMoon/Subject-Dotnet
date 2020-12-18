@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ACF139DA-B5A0-408A-A38A-077C9010D931}</ProjectGuid>
+    <ProjectGuid>{63A259B8-B9E3-4AC6-8D4F-92A918A9ED4F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LabOfTask02</RootNamespace>
-    <AssemblyName>LabOfTask02</AssemblyName>
+    <RootNamespace>LabOfTask04</RootNamespace>
+    <AssemblyName>LabOfTask04</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,7 +35,7 @@
   <ItemGroup>
     <Reference Include="LabOfTask01, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\source\repos\Lab_Of_Task01\LabOfTask01\bin\Debug\LabOfTask01.exe</HintPath>
+      <HintPath>libs\LabOfTask01.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,6 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="libs\LabOfTask01.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

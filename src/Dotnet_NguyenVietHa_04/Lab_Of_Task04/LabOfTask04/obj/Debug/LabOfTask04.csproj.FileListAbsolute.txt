@@ -1,0 +1,9 @@
+C:\Users\Administrator\source\repos\Lab_Of_Task04\LabOfTask04\bin\Debug\LabOfTask04.exe.config
+C:\Users\Administrator\source\repos\Lab_Of_Task04\LabOfTask04\bin\Debug\LabOfTask04.exe
+C:\Users\Administrator\source\repos\Lab_Of_Task04\LabOfTask04\bin\Debug\LabOfTask04.pdb
+C:\Users\Administrator\source\repos\Lab_Of_Task04\LabOfTask04\obj\Debug\LabOfTask04.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\Lab_Of_Task04\LabOfTask04\obj\Debug\LabOfTask04.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Lab_Of_Task04\LabOfTask04\obj\Debug\LabOfTask04.exe
+C:\Users\Administrator\source\repos\Lab_Of_Task04\LabOfTask04\obj\Debug\LabOfTask04.pdb
+C:\Users\Administrator\source\repos\Lab_Of_Task04\LabOfTask04\bin\Debug\LabOfTask01.dll
+C:\Users\Administrator\source\repos\Lab_Of_Task04\LabOfTask04\obj\Debug\LabOfTask04.csproj.CopyComplete
