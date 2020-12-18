@@ -13,20 +13,20 @@ namespace LabOfTask03
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello masster");
+            Console.WriteLine("Hello master");
             Console.WriteLine("Press 1: If you want create new list student");
-            Console.WriteLine("Press 2: If you want get list stident from File");
+            Console.WriteLine("Press 2: If you want get list student from File");
             Console.Write("Your choose: ");
             
             var students = new List<Student>();
             var command = Console.ReadLine();
 
             Console.WriteLine("------------------------------");
-
+            //Choose 1 if you want to create new students.
             if (command == "1")
             {
 
-                Console.Write("Enter number student creater: ");
+                Console.Write("Enter number student creator: ");
                 var count = int.Parse(Console.ReadLine());
                 Console.WriteLine("++++++++++++++++++++++++++++++");
 
@@ -58,7 +58,7 @@ namespace LabOfTask03
 
                 System.IO.File.WriteAllLines("student.txt", lines);
             }
-
+            //Choose 2 if you want to see list students.
             else if (command == "2")
             {
 
