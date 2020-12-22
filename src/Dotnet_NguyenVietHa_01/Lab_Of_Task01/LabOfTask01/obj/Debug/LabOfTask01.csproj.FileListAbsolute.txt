@@ -12,3 +12,10 @@ C:\Users\Administrator\Documents\GitHub\Subject-Dotnet\src\Dotnet_NguyenVietHa_0
 C:\Users\Administrator\Documents\GitHub\Subject-Dotnet\src\Dotnet_NguyenVietHa_01\Lab_Of_Task01\LabOfTask01\obj\Debug\LabOfTask01.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Documents\GitHub\Subject-Dotnet\src\Dotnet_NguyenVietHa_01\Lab_Of_Task01\LabOfTask01\obj\Debug\LabOfTask01.exe
 C:\Users\Administrator\Documents\GitHub\Subject-Dotnet\src\Dotnet_NguyenVietHa_01\Lab_Of_Task01\LabOfTask01\obj\Debug\LabOfTask01.pdb
+C:\Users\Administrator\source\repos\Lab_Of_Task01\LabOfTask01\bin\Debug\LabOfTask01.pdb
+C:\Users\Administrator\source\repos\Lab_Of_Task01\LabOfTask01\obj\Debug\LabOfTask01.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Lab_Of_Task01\LabOfTask01\obj\Debug\LabOfTask01.pdb
+C:\Users\Administrator\source\repos\Lab_Of_Task01\LabOfTask01\obj\Debug\LabOfTask01.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\Lab_Of_Task01\LabOfTask01\bin\Debug\LabOfTask01.dll.config
+C:\Users\Administrator\source\repos\Lab_Of_Task01\LabOfTask01\bin\Debug\LabOfTask01.dll
+C:\Users\Administrator\source\repos\Lab_Of_Task01\LabOfTask01\obj\Debug\LabOfTask01.dll

@@ -6,20 +6,10 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LapOfTask01
+namespace LabOfTask01
 {
-    public class Student
-    {
-        public string NameGroup { get; set; }
-        public string FamilyName { get; set; }
-        public string MiddleName { get; set; }
-        public string Name { get; set; }
-        public string YourEmail { get; set; }
-        public int PhoneNumber { get; set; }
-    }
     class Program
     {
-
         static void Main(string[] args)
         {
             Student student = new Student();
@@ -61,25 +51,25 @@ namespace LapOfTask01
             //Show full name.
             Console.Write("This is full your name? " + "===> ");
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.Write(student.FamilyName + " " + student.MiddleName+ " " + student.Name);
+            Console.Write(student.FamilyName + " " + student.MiddleName + " " + student.Name);
             Console.ForegroundColor = ConsoleColor.Gray;
             Console.Write(" <===\n");
 
             //Enter your number phone.
             Console.Write("Write yor number phone: ");
-                if (int.TryParse(Console.ReadLine(), out int number))
-                {
-                    student.PhoneNumber = number;
+            if (int.TryParse(Console.ReadLine(), out int number))
+            {
+                student.PhoneNumber = number;
                 Console.Write("This your number? " + "===> ");
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.Write(number);
                 Console.ForegroundColor = ConsoleColor.Gray;
                 Console.Write(" <===\n");
-                }
-                else
-                {
-                    Console.WriteLine("Sorry it's not number !\n");
-                }
+            }
+            else
+            {
+                Console.WriteLine("Sorry it's not number !\n");
+            }
 
             //Enter the email
             Console.Write("write your Email: ");
@@ -114,6 +104,21 @@ namespace LapOfTask01
             Console.WriteLine("+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=\n");
 
             Console.ReadKey();
+        }
+    }
+    public class Student
+    {
+        public string NameGroup { get; set; }
+        public string FamilyName { get; set; }
+        public string MiddleName { get; set; }
+        public string Name { get; set; }
+        public string YourEmail { get; set; }
+        public int PhoneNumber { get; set; }
+
+        public override string ToString()
+        {
+            return "Full Name: " + $"{FamilyName} {MiddleName} {Name}"
+                + " Number Phone: " + PhoneNumber + " Email: " + YourEmail ;
         }
     }
 }

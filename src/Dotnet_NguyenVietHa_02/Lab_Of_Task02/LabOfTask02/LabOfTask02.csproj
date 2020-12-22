@@ -35,7 +35,7 @@
   <ItemGroup>
     <Reference Include="LabOfTask01, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\source\repos\Lab_Of_Task01\LabOfTask01\bin\Debug\LabOfTask01.exe</HintPath>
+      <HintPath>libs\LabOfTask01.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,6 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="libs\LabOfTask01.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

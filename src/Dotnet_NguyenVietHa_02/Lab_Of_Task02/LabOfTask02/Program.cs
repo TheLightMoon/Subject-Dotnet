@@ -1,4 +1,4 @@
-﻿using LapOfTask01;
+﻿using LabOfTask01;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,23 +11,23 @@ namespace LabOfTask02
     {
         static void Main(string[] args)
         {
-            //#1 That is list of student.
+            //#1 That is a list of students.
             var students = new List<Student>();
             Console.Write("Enter NUMBER of student you want: ");
             var count = int.Parse(Console.ReadLine());
 
             Console.WriteLine("==============================");
 
-            //#2 I will write info about student here.
+            //#2 I will write info about students here.
             for (int i = 0; i < count; i++)
             {
                 Console.WriteLine("Please enter student no {0}", i + 1);
                 var student = new Student();
                 Console.WriteLine("New : ");
-                //1. Write family name.
+                //1. Write a family name.
                 Console.Write("Family name: ");
                 student.FamilyName = Console.ReadLine();
-                //2. Write middle name.
+                //2. Write a middle name.
                 Console.Write("Middle name: ");
                 student.MiddleName = Console.ReadLine();
                 //3. Write name.
@@ -44,20 +44,19 @@ namespace LabOfTask02
                 }
                 else
                 {
-                    Console.WriteLine("This is not number!!!! I will leave your phone number blank");
+                    Console.WriteLine("This is not numbers!!!! I will leave your phone number blank");
                     student.PhoneNumber = 0;
                 }
 
                 Console.WriteLine("==============================");
 
-                //6. We add student here.
+                //6. We add students here.
                 students.Add(student);
             }
-            //#3 We will search student here.
+            //#3 We will search for students here.
             foreach(var student in students)
             {
-                Console.WriteLine($"Student : {student.FamilyName} {student.MiddleName} {student.Name}\n" +
-                    $"Number phone: {student.PhoneNumber} \nEmail: {student.YourEmail}");
+                Console.WriteLine(student);
                 Console.WriteLine("------------------------------");
             }
 

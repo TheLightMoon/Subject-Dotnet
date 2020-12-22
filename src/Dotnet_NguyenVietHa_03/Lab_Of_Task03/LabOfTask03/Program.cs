@@ -1,4 +1,4 @@
-﻿using LapOfTask01;
+﻿using LabOfTask01;
 using System.Runtime.InteropServices.ComTypes;
 using System;
 using System.Collections.Generic;
